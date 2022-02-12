@@ -1,14 +1,45 @@
 html{
-    font-size: 20px;
+    font-size: 18px;
     font-family: "lato",sans-serif;
 }
 
 body {
-    background-color: #fdfdfd;
+    background-color: #fffa7a;
     text-align: center;
 }
 
+#pruebas {
+    max-width: 600px;
+    height:950px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35%;
+    text-align: center;
+    display:block;
+}
+
+#prueba{
+  max-width: 600px;
+  height:950px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 35%;
+  text-align: center;
+  display:none;
+
+}
+
 .button1 {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #2e518b; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*convierte mayuscula*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-top : 1rem;
+}
+
+.button2 {
     border: 1px solid #2e518b; /*anchura, estilo y color borde*/
     padding: 10px; /*espacio alrededor texto*/
     background-color: #2e518b; /*color botón*/

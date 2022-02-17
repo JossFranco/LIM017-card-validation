@@ -1,19 +1,22 @@
-//import validator from "./validator.js";
+import validator from "./validator.js";
 
+    const enterBtn = document.querySelector("#btn");
 
-document.getElementById("btn").addEventListener("click", capture);
-function capture() {
+    enterBtn.addEventListener("click", () => {
+    document.getElementById("pruebas").style.display = "none";
+    document.getElementById("prueba").style.display = "block";
+    const numberCard = document.getElementById("numberCard").value;
+    const message = document.getElementById("mensaje");
 
-    let dato = document.getElementById("numberCard").value;
+    if (numberCard === "") {
+        message.innerText = 'por favor ingresa el número de tarjeta';
+        message.classList.add("error-text");
+       
+    } else {
 
-    if (dato == "") {
-        alert("Ingrese el número de tarjeta");
+        const finalText = validator.isValid(numberCard);
+       
+        return finalText;
     }
-    else {
-        let prueba = document.getElementById("prueba");
-        prueba.innerHTML = dato;
+})
 
-        document.getElementById("pruebas").style.display = "none";
-        document.getElementById("prueba").style.display = "block";
-    }
-}

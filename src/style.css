@@ -50,3 +50,7 @@ body {
     border-radius: 50px; /*bordes redondos*/
     margin-top : 1rem;
 }
+
+.error-text {
+  color: rgb(255, 8, 0);
+}

@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-#pruebas {
+#firstSection {
     max-width: 600px;
     height:950px;
     background-color: rgb(255, 255, 255);
@@ -17,7 +17,7 @@ body {
     display:block;
 }
 
-#prueba{
+#secondSection{
   max-width: 600px;
   height:950px;
   background-color: rgb(255, 255, 255);
@@ -27,7 +27,7 @@ body {
 
 }
 
-.button1 {
+#btn {
   border: 1px solid #2e518b; /*anchura, estilo y color borde*/
   padding: 10px; /*espacio alrededor texto*/
   background-color: #2e518b; /*color botón*/
@@ -39,18 +39,14 @@ body {
   margin-top : 1rem;
 }
 
-.button2 {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*convierte mayuscula*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
-    margin-top : 1rem;
-}
-
-.error-text {
-  color: rgb(255, 8, 0);
+#btn1 {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #2e518b; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*convierte mayuscula*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-top : 1rem;
 }

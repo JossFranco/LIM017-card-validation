@@ -37,13 +37,13 @@ const validator = {
     let lengthCard = x.length;
     let mask = lengthCard -4
     let hidden = x.slice(mask,lengthCard);
-    let maskCard;
+    let maskOfCard;
     if(lengthCard > 5){
-      maskCard = "#".repeat(mask) + hidden;
+      maskOfCard = "#".repeat(mask) + hidden;
      } else {
-     maskCard = x;
+     maskOfCard = x;
     }
-    return maskCard;
+    return maskOfCard;
   }
 }
 export default validator;

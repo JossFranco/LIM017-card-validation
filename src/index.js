@@ -8,11 +8,11 @@ const enterBtn = document.querySelector("#btn");
     const message = document.getElementById("message");
     const maskOfCard = document.getElementById("maskOfCard");
     let finalAnswer = validator.isValid(numberCard);
-let maskAnswer= validator.maskify(numberCard);
+    let maskAnswer= validator.maskify(numberCard);
 
     if (numberCard === "") {
-        let frase=document.getElementById('frase');
-        frase.innerHTML='Por favor no se olvide de ingresar el número de la tarjeta';
+        let phrase=document.getElementById("phrase");
+        phrase.innerHTML='Por favor no olvide ingresar el número de la tarjeta';
     } 
     else {
         document.getElementById("firstSection").style.display = "none";

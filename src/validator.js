@@ -11,26 +11,26 @@ const validator = {
     //Invertir los números del array
     secondArray.reverse();
     //Ubicar los números de posiciones "pares"
-    let sumaPares = 0;
-    let sumaImpares = 0;
+    let addPairs = 0;
+    let oddSum = 0;
     for (let i = 1; i < secondArray.length; i+=2) {
       //Multiplicar por 2 los números encontrados del array
       let positionPar = secondArray[i]*2;
       if (positionPar >= 10) {
-        sumaPares = sumaPares + 1 + positionPar % 10;
+        addPairs = addPairs + 1 + positionPar % 10;
       }
-      else sumaPares = sumaPares + positionPar;
+      else addPairs = addPairs + positionPar;
     }
     for (let i = 0; i < secondArray.length; i+=2) {
-      sumaImpares = sumaImpares + secondArray[i];
+      oddSum = oddSum + secondArray[i];
     }
-    let sumaTotal = sumaPares + sumaImpares;
-    let respuesta;
-    if (sumaTotal % 10 == 0) {
-      respuesta = true;
-    } else respuesta = false;
+    let addAmount = addPairs + oddSum;
+    let answer;
+    if (addAmount % 10 == 0) {
+      answer = true;
+    } else answer = false;
     
-    return respuesta;
+    return answer;
     },
   
     maskify: function (x) {

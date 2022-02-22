@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Card Validation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+    <section id="firstSection">
+      <img src="imagen1.png" width="300"/><br><br><br>
+      <h1>Bienvenid@</h1>
+      <h1 id="title">Pago de Tarjeta de Crédito</h1><br><br>
+      <img src="imagen2.png" width="250" /><br><br><br>
+      <p id="phrase"></p>
+        <label for="value">Ingresa el valor a cancelar:
+        <input type="number" id="value" name="name"><br><br></label>
+        <label for="valueCard"> Ingresar el número de tarjeta:
+        <input type="text" id="numberCard"><br><br></label>
+        <button id="btn"> Validar </button>
+    </section>
+    <section id="secondSection">
+      <img src="imagen1.png" width="300"/><br><br><br>
+      <img src="imagen2.png" width="250" /><br><br><br>
+      <p id="maskOfCard"></p>
+      <p id="message"> </p>
+<button id="btn1">Regresar</button>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
